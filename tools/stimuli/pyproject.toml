@@ -1,0 +1,6 @@
+[project]
+name = "omli-stimuli-tools"
+version = "0.1.0"
+description = "Generate and measure screening stimulus clips (needs ffmpeg on PATH)"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0", "pillow>=11"]

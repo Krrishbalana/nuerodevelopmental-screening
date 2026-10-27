@@ -1,0 +1,124 @@
+{
+  "kind": "geometric",
+  "generator": "tools/stimuli/generate_geometric.py",
+  "mode": "pair",
+  "clips": [
+    {
+      "file": "geometric_1.mp4",
+      "seconds": 12.0,
+      "luma": 155.69,
+      "contrast": 52.23,
+      "motion": 1.066,
+      "seed": 1,
+      "params": {
+        "width": 720,
+        "height": 900,
+        "fps": 30,
+        "seconds": 12.0,
+        "brightness": 7.887153139855301,
+        "speed": 0.11435389110546457,
+        "size": 1.4862067824270413,
+        "shapes": 7
+      },
+      "matched_to": {
+        "files": [
+          "social_1.mp4"
+        ],
+        "target": {
+          "luma": 152.2,
+          "contrast": 56.6,
+          "motion": 1.264
+        }
+      }
+    },
+    {
+      "file": "geometric_2.mp4",
+      "seconds": 12.0,
+      "luma": 160.04,
+      "contrast": 39.46,
+      "motion": 6.074,
+      "seed": 2,
+      "params": {
+        "width": 720,
+        "height": 900,
+        "fps": 30,
+        "seconds": 12.0,
+        "brightness": 7.4120280565920185,
+        "speed": 0.9765026211429543,
+        "size": 0.9668505342924685,
+        "shapes": 7
+      },
+      "matched_to": {
+        "files": [
+          "social_2.mp4"
+        ],
+        "target": {
+          "luma": 160.23,
+          "contrast": 40.27,
+          "motion": 5.619
+        }
+      }
+    },
+    {
+      "file": "geometric_3.mp4",
+      "seconds": 12.0,
+      "luma": 101.88,
+      "contrast": 45.73,
+      "motion": 7.145,
+      "seed": 3,
+      "params": {
+        "width": 720,
+        "height": 900,
+        "fps": 30,
+        "seconds": 12.0,
+        "brightness": 3.1721309239918924,
+        "speed": 0.7106325065680511,
+        "size": 2.0898384816746365,
+        "shapes": 7
+      },
+      "matched_to": {
+        "files": [
+          "social_3.mp4"
+        ],
+        "target": {
+          "luma": 94.16,
+          "contrast": 47.45,
+          "motion": 6.67
+        }
+      }
+    },
+    {
+      "file": "geometric_4.mp4",
+      "seconds": 12.0,
+      "luma": 82.44,
+      "contrast": 56.83,
+      "motion": 3.241,
+      "seed": 4,
+      "params": {
+        "width": 720,
+        "height": 900,
+        "fps": 30,
+        "seconds": 12.0,
+        "brightness": 0.7143198358652615,
+        "speed": 0.3752664577539402,
+        "size": 3.5,
+        "shapes": 7
+      },
+      "matched_to": {
+        "files": [
+          "social_4.mp4"
+        ],
+        "target": {
+          "luma": 83.66,
+          "contrast": 79.82,
+          "motion": 3.582
+        }
+      }
+    }
+  ],
+  "mean": {
+    "luma": 125.013,
+    "contrast": 48.562,
+    "motion": 4.381
+  }
+}

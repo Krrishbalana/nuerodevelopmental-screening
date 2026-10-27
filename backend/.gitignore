@@ -1,0 +1,7 @@
+data/sessions/*
+!data/sessions/.gitkeep
+.venv/
+__pycache__/
+.pytest_cache/
+data/recordings/
+data/questionnaires/

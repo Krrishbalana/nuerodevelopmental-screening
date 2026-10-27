@@ -1,0 +1,18 @@
+[project]
+name = "omli-behavior-screening-backend"
+version = "0.1.0"
+description = "Scoring + API for Omli behavior screening (camera-based, screening only)"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.8",
+    "numpy>=2.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,52 @@
+{
+  "kind": "social",
+  "set": "pilot-1",
+  "note": "Interim Pexels clips for development and pilot. Replace with our own shoot before real screening.",
+  "clips": [
+    {
+      "file": "social_1.mp4",
+      "seconds": 12.0,
+      "luma": 152.2,
+      "contrast": 56.6,
+      "motion": 1.264,
+      "content": "boy with glasses talking/smiling to camera, plain bright room",
+      "credit": "Kampus Production on Pexels",
+      "url": "https://www.pexels.com/video/boy-smiling-while-looking-at-camera-7232120/"
+    },
+    {
+      "file": "social_2.mp4",
+      "seconds": 12.0,
+      "luma": 160.23,
+      "contrast": 40.27,
+      "motion": 5.619,
+      "content": "girl in lehenga dancing, full body, indoor",
+      "credit": "Yan Krukau on Pexels",
+      "url": "https://www.pexels.com/video/a-kid-dancing-8811089/"
+    },
+    {
+      "file": "social_3.mp4",
+      "seconds": 12.0,
+      "luma": 94.16,
+      "contrast": 47.45,
+      "motion": 6.67,
+      "content": "boy laughing outdoors, mostly looking off to the side",
+      "credit": "Hamim on Pexels",
+      "url": "https://www.pexels.com/video/joyful-child-in-rural-setting-smiling-35457852/"
+    },
+    {
+      "file": "social_4.mp4",
+      "seconds": 10.8,
+      "luma": 83.66,
+      "contrast": 79.82,
+      "motion": 3.582,
+      "content": "boy in cap smiling at camera, close-up, dark background",
+      "credit": "Prime Media on Pexels",
+      "url": "https://www.pexels.com/video/video-of-a-boy-smiling-at-the-camera-5889568/"
+    }
+  ],
+  "mean": {
+    "luma": 122.562,
+    "contrast": 56.035,
+    "motion": 4.284
+  }
+}

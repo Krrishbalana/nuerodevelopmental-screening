@@ -1,0 +1,59 @@
+{
+  "_note": "Camera (and later speech) observations for the Saathi engine. Each outcome lists per-condition likelihood ratios with their source and the ages they are valid for. The first entry whose age range contains the child's age is used. 'published' = from a cited study, 'extrapolated' = the published value used outside the ages that study tested, 'estimated' = Saathi strength-based estimate. Version 1, 2026-10-26.",
+  "construct_damping": 0.5,
+  "confidence_weights": { "high": 1.0, "medium": 0.7 },
+  "observations": [
+    {
+      "id": "obs_social_preference",
+      "label": "Looked at moving shapes more than at people (split screen)",
+      "domain": "SOC",
+      "construct_question_ids": [],
+      "outcomes": [
+        {
+          "key": "flagged",
+          "label": "More than 69% looking at the shapes",
+          "lrs": [
+            { "condition": "ASD", "lr": 8.5, "source": "published", "ref": "wen2022", "age_months": [12, 48] },
+            { "condition": "ASD", "lr": 8.5, "source": "extrapolated", "ref": "wen2022", "age_months": null }
+          ]
+        },
+        {
+          "key": "not_flagged",
+          "label": "69% or less looking at the shapes",
+          "lrs": [
+            { "condition": "ASD", "lr": 0.85, "source": "published", "ref": "wen2022", "age_months": [12, 48] },
+            { "condition": "ASD", "lr": 0.85, "source": "extrapolated", "ref": "wen2022", "age_months": null }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obs_name_response",
+      "label": "Rarely turned to their name when called from behind",
+      "domain": "SOC",
+      "construct_question_ids": ["soc_response_name"],
+      "outcomes": [
+        {
+          "key": "flagged",
+          "label": "Turned on at most one call",
+          "lrs": [
+            { "condition": "ASD", "lr": 1.82, "source": "published", "ref": "campbell2019", "age_months": [16, 31] },
+            { "condition": "ASD", "lr": 1.82, "source": "extrapolated", "ref": "campbell2019", "age_months": null },
+            { "condition": "HL", "lr": 6.0, "source": "estimated", "ref": "saathi:soc_response_name", "age_months": null },
+            { "condition": "GDD", "lr": 1.35, "source": "estimated", "ref": "saathi:soc_response_name", "age_months": null }
+          ]
+        },
+        {
+          "key": "not_flagged",
+          "label": "Turned on two or more calls",
+          "lrs": [
+            { "condition": "ASD", "lr": 0.54, "source": "published", "ref": "campbell2019", "age_months": [16, 31] },
+            { "condition": "ASD", "lr": 0.54, "source": "extrapolated", "ref": "campbell2019", "age_months": null },
+            { "condition": "HL", "lr": 0.5, "source": "estimated", "ref": "saathi:soc_response_name", "age_months": null },
+            { "condition": "GDD", "lr": 0.9, "source": "estimated", "ref": "saathi:soc_response_name", "age_months": null }
+          ]
+        }
+      ]
+    }
+  ]
+}
